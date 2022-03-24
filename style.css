@@ -197,12 +197,6 @@ header #language_change_button p {
   border-radius: 10px 0 0 10px;
   display: none;
 }
-.visible {
-  display: flex !important;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
 #main_left_menu li {
   width: 630px;
   height: 90px;
@@ -237,6 +231,12 @@ header #language_change_button p {
   background: url(icons/arrow1.svg);
 }
 
+.visible {
+  display: flex !important;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
 
 /* PHOTO */
 
