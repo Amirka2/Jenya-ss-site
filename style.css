@@ -195,7 +195,10 @@ header #language_change_button p {
   height: 900px;
   background: #3D9AD1;
   border-radius: 10px 0 0 10px;
-  display: flex;
+  display: none;
+}
+.visible {
+  display: flex !important;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
