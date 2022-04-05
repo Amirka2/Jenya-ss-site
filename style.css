@@ -14,173 +14,146 @@ a {
 /* HEADER */
 header {
   width: 1440px;
-  height: 110px;
+  height: 70px;
   left: 0px;
   top: 0px;
   border-radius: 0px;
   position: fixed;
   z-index: 1;
   background-color: #3D9AD1;
+  color: #FFF;
 }
-header a.hover:hover {
+header .hover:hover {
   background: #9ECCE8;
 }
 
-.header_wrapper {
+.header-wrapper {
+  width: 1100px;
+  margin: 0 auto;
   display: flex;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
-.header_wrapper div {
-  height: 110px;
+.icon {
+  width: 35px;
+  height: 35px;
 }
 
 /* LOGO */
-header #main_logo {
+#main-logo-wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  width: 120px;
+  width: 165px;
+  height: 70px;
 }
-header #main_logo .icon {
-  height: 100px;
-  width: 100px;
-  background: url(icons/logo.svg);
+#logo {
+  height: 60px;
+  width: 60px;
+  background: url("icons/logo.svg");
+}
+#text {
+  width: 95px;
+  text-transform: uppercase;
+}
+#text h1 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 /* CATALOG */
-header #catalogue_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-}
-header #catalogue_button .icon {
-  height: 48px;
-  width: 54px;
-  border-radius: 0px;
-  background: url(icons/catalogue_button.svg);
-}
 
-
-header #catalogue_title {
-  height: 105px;
-  width: 327px;
+#catalogue {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  width: 135px;
+  height: 70px;
 }
-#catalogue_title h1 {
+#catalogue .icon {
+  background: url("icons/catalog.svg");
+}
+#catalogue h1 {
+  width: 95px;
+  height: 35px;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 45px;
-
-  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFF;
 }
 
 /* SEARCH */
-header #search {
+
+#search {
+  width: 300px;
+  height: 30px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  height: 110px;
-  width: 720px;
-  border-radius: 0px;
-}
-#search #input_wrapper {
-  height: 45px;
-  width: 650px;
-  background: #FFFFFF;
-  border-radius: 50px;
-  display: flex;
-  -ms-align-items: center;
-  align-items: center;
-  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 20px;
 }
 #search .icon {
-  height: 20.6px;
-  width: 20.6px;
-  margin-left: 15px;
-  background: url(icons/search.svg);
+  width: 15px;
+  height: 15px;
+  background: url("icons/search.svg");
 }
 #search input {
-  height: 40px;
-  width: 600px;
-  border-radius: 0 50px 50px 0;
+  height: 30px;
+  width: 280px;
+  border-radius: 20px;
+}
 
-  font-size: 20px;
+/* BUTTONS */
+.button-wrapper {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-wrapper:hover {
+  background: rgba(158, 204, 232, 1);
+  border-radius: 5px;
 }
 
 /* CALL */
-header #call_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-}
-header #call_button .icon {
-  height: 58px;
-  width: 58px;
-  background: url(icons/call.svg);
+#call-button .icon {
+  background: url("icons/call.svg");
 }
 
 /* FAVOURITES */
-header #favourites {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-}
-header #favourites .icon {
-  height: 47px;
-  width: 49.6px;
-  background: url(icons/like.svg);
+#favourites .icon {
+  height: 32px;
+  background: url("icons/like.svg");
 }
 
 /* CART */
-header #cart_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-}
-header #cart_button .icon {
-  height: 58.4px;
-  width: 54px;
-  background: url(icons/cart.svg);
+#cart .icon {
+  height: 38px;
+  background: url("icons/cart.svg");
 }
 
 /* PROFILE */
-header #profile_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-}
-header #profile_button .icon {
-  height: 50px;
-  width: 47px;
-  background: url(icons/profile.svg);
+#profile .icon {
+  height: 32px;
+  width: 30px;
+  background: url("icons/profile.svg");
 }
 
 /* LANGUAGE CHANGE */
-header #language_change_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-}
-header #language_change_button h1 {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 45px;
-  letter-spacing: 0em;
-  text-align: center;
-
+#language-change-button button{
+  background: rgba(0, 0, 0, 0);
+  border: none;
   color: #FFF;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
 }
 
 /* CONTENT */
