@@ -1,14 +1,16 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 
 /* HEADER */
@@ -20,11 +22,11 @@ header {
   border-radius: 0px;
   position: fixed;
   z-index: 1;
-  background-color: #3D9AD1;
-  color: #FFF;
+  background-color: #3d9ad1;
+  color: #fff;
 }
 header .hover:hover {
-  background: #9ECCE8;
+  background: #9ecce8;
 }
 
 .header-wrapper {
@@ -68,23 +70,27 @@ header .hover:hover {
 
 /* CATALOG */
 
-#catalogue {
+#catalogue a {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 135px;
-  height: 70px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 140px;
+  height: 45px;
 }
 #catalogue .icon {
   background: url("icons/catalog.svg");
 }
 #catalogue h1 {
   width: 95px;
-  height: 35px;
+  height: 32px;
   font-weight: 600;
   font-size: 24px;
   line-height: 30px;
-  color: #FFF;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
 }
 
 /* SEARCH */
@@ -107,6 +113,7 @@ header .hover:hover {
   height: 30px;
   width: 280px;
   border-radius: 20px;
+  font-size: 20px;
 }
 
 /* BUTTONS */
@@ -116,6 +123,7 @@ header .hover:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .button-wrapper:hover {
   background: rgba(158, 204, 232, 1);
@@ -147,20 +155,21 @@ header .hover:hover {
 }
 
 /* LANGUAGE CHANGE */
-#language-change-button button{
+#language-change-button button {
   background: rgba(0, 0, 0, 0);
   border: none;
-  color: #FFF;
+  color: #fff;
   font-weight: 600;
   font-size: 30px;
   line-height: 38px;
+  cursor: pointer;
 }
 
 /* CONTENT */
 
 #content {
   width: 1100px;
-  margin: 110px auto;
+  margin: 70px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -183,9 +192,9 @@ header .hover:hover {
   height: 600px;
   background: rgba(61, 154, 209, 1);
   border-radius: 10px;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: 600;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 #menu > ul {
   text-decoration: none;
@@ -207,7 +216,7 @@ header .hover:hover {
   color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;    
+  align-items: center;
   padding: 0 20px 0 20px;
 }
 .menu-item p {
@@ -241,7 +250,6 @@ header .hover:hover {
   border-radius: 10px 10px 10px 0;
 }
 
-
 /* SUBMENU */
 
 .menu-item > ul {
@@ -250,7 +258,7 @@ header .hover:hover {
   height: 600px;
   position: absolute;
   left: 570px;
-  top: 180px;
+  top: 120px;
   border-radius: 0 10px 10px 0;
   padding: 5px;
 }
@@ -269,7 +277,7 @@ li:hover.menu-item > ul {
   align-items: center;
 }
 .submenu-wrapper > a {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 40px;
   margin-right: 10px;
 }
@@ -301,7 +309,7 @@ li:hover.menu-item > ul {
   border-radius: 5px;
 }
 .sub-submenu-item > li > a::before {
-  content: '';
+  content: "";
   float: left;
   position: relative;
   top: 11px;
@@ -311,7 +319,6 @@ li:hover.menu-item > ul {
 }
 
 /* PHOTO */
-
 
 #photo_wrapper {
   width: 890px;
