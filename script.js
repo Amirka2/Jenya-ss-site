@@ -1,4 +1,6 @@
-
+document.getElementById("call-button").addEventListener("click", () => {
+  document.getElementById("contacts").classList.toggle("visible")
+})
 
 
 // document.getElementById("bath").addEventListener("click", () => {
