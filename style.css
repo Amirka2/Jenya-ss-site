@@ -12,6 +12,12 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.visible {
+  display: flex !important;
+}
+.hidden {
+  display: none !important;
+}
 
 /* HEADER */
 header {
@@ -21,7 +27,7 @@ header {
   top: 0px;
   border-radius: 0px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   background-color: #3d9ad1;
   color: #fff;
 }
@@ -134,7 +140,43 @@ header .hover:hover {
 #call-button .icon {
   background: url("icons/call.svg");
 }
-
+#contacts {
+  width: 215px;
+  height: 151px;
+  background-color: #53B5EF;
+  border-radius: 5px;
+  position: relative;
+  left: 320px;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 1;
+  color: #fff;
+}
+#contacts > h2 {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+}
+#contacts .field {
+  margin-top: 20px;
+  font-size: 11px;
+  width: 170px;
+  display: flex;
+  justify-content:stretch;
+}
+.field > p, .field > a {
+  padding: 3px;
+}
+.field a {
+  background-color: #fff;
+  color: #3D9AD1;
+  border-radius: 5px;
+}
+.field a:hover {
+  background-color: rgba(49, 224, 136, 0.8);
+  color: #fff;
+}
 /* FAVOURITES */
 #favourites .icon {
   height: 32px;
@@ -153,6 +195,57 @@ header .hover:hover {
   width: 30px;
   background: url("icons/profile.svg");
 }
+
+#authorization {
+  height: 151px;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  left: 500px;
+  border-radius: 5px;
+  background-color: #53B5EF;
+  color: #fff;
+}
+/* #authorization input {
+  height: 17px;
+  color: #9ECCE8;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 0px solid white;
+}
+#sign-in {
+  width: 215px;
+  height: 151px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#sign-up-btn:hover {
+  cursor: pointer;
+}
+#sign-up {
+  width: 215px;
+  height: 254px;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#sign-up .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#sign-up img#back-btn {
+  cursor: pointer;
+  padding: 3px;
+}
+#sign-up input {
+  margin-top: 15px;
+} */
 
 /* LANGUAGE CHANGE */
 #language-change-button button {
@@ -195,6 +288,7 @@ header .hover:hover {
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   margin-top: 50px;
+  z-index: 1;
 }
 #menu > ul {
   text-decoration: none;
