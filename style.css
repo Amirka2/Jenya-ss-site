@@ -208,7 +208,7 @@ header .hover:hover {
   background-color: #53B5EF;
   color: #fff;
 }
-#authorization input {
+/* #authorization input {
   height: 17px;
   color: #9ECCE8;
   background-color: #fff;
@@ -245,7 +245,7 @@ header .hover:hover {
 }
 #sign-up input {
   margin-top: 15px;
-}
+} */
 
 /* LANGUAGE CHANGE */
 #language-change-button button {
