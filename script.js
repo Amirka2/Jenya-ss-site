@@ -2,19 +2,23 @@ let contacts = document.getElementById("call-button");
 contacts.addEventListener("click", () => {
   document.getElementById('contacts').classList.toggle("visible")
 })
-let auth = document.getElementById("profile");
-auth.addEventListener("click", () => {
-  document.getElementById('authorization').classList.toggle("visible")
-})
-document.getElementById('sign-up-btn').addEventListener("click", ()=> {
-    document.getElementById('authorization').style.height = "254px";
-    document.getElementById('sign-in').classList.toggle("hidden");
-    document.getElementById('sign-up').classList.toggle("visible");
-})
-document.getElementById('back-btn').addEventListener("click", ()=> {
-    document.getElementById('sign-in').classList.remove("hidden");
-    document.getElementById('sign-up').classList.remove("visible");
-})
+// let auth = document.getElementById("profile");
+// auth.addEventListener("click", () => {
+//   document.getElementById('authorization').classList.toggle("visible")
+// })
+// document.getElementById('sign-up-btn').addEventListener("click", ()=> {
+//     document.getElementById('authorization').style.height = "254px";
+//     document.getElementById('sign-in').classList.toggle("hidden");
+//     document.getElementById('sign-up').classList.toggle("visible");
+// })
+// document.getElementById('back-btn').addEventListener("click", ()=> {
+//     document.getElementById('sign-in').classList.remove("hidden");
+//     document.getElementById('sign-up').classList.remove("visible");
+// })
+
+
+
+
 // window.onclick = function(event) { закрытие окна при клике вне окна
 //     if (event.target == modal) {
 //         modal.style.display = "none";
