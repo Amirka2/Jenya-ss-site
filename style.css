@@ -421,11 +421,11 @@ li:hover.menu-item > ul {
 }
 #banner > h2 {
   width: 355px;
-  height: 80px;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
   color: #3D9AD1;
+  margin: 10px 0 30px 0;  
 }
 
 /* SLIDER */
@@ -434,11 +434,11 @@ li:hover.menu-item > ul {
 }
 .banner img {
   width: 640px;
-  height: 480px;
+  height: 490px;
 }
 /* Слайдер */
 .banner.slick-slider{
-  height: 490px;
+  height: 500px;
   width: 640px;
   border: 5px solid #3D9AD1;
   border-radius: 5px;
