@@ -663,7 +663,7 @@ button.product-add-cart-btn:hover {
   font-size: 0;
   width: 30px;
   height: 60px;
-  margin: -15px -35px 0 -35px;
+  margin: -15px 0 0 0;
   border: none;
 }
 /* Стрелка влево */
