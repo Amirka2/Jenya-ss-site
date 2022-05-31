@@ -13,6 +13,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.product-photo-slider').slick({
+    slidesToShow: 1,
   });
 }); 
 
@@ -20,7 +21,7 @@ $(document).ready(function(){
   $('.products-slider').slick({
     slidesToScroll: 1,
     slidesToShow: 4,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
   });
 });
