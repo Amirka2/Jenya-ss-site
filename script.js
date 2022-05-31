@@ -10,7 +10,17 @@ $(document).ready(function(){
     autoplaySpeed: 2000,
   });
 });
+
 $(document).ready(function(){
   $('.product-photo-slider').slick({
+  });
+}); 
+
+$(document).ready(function(){
+  $('.products-slider').slick({
+    slidesToScroll: 1,
+    slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 5000,
   });
 });
