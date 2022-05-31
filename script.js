@@ -10,3 +10,7 @@ $(document).ready(function(){
     autoplaySpeed: 2000,
   });
 });
+$(document).ready(function(){
+  $('.product-photo-slider').slick({
+  });
+});

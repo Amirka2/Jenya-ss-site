@@ -265,6 +265,7 @@ header .hover:hover {
   width: 1100px;
   margin: 70px auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -442,7 +443,6 @@ li:hover.menu-item > ul {
   width: 640px;
   border: 5px solid #3D9AD1;
   border-radius: 5px;
-  border-image: auto;
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
@@ -497,12 +497,126 @@ li:hover.menu-item > ul {
 /* Элемент точки */
 .slick-dots li button{}
 
-/* PHOTO */
+/* PRODUCTS ON MAIN */
 
-#photo_wrapper {
-  width: 890px;
-  height: 900px;
+.main-products {
+  width: 100%;
+  height: 660px;
+  margin-top: 50px;
 }
+
+/* PRODUCT SLIDER */ 
+
+.product {
+  height: 250px;
+  width: 250px;
+  border: 2px solid #3d9ad1;
+  border-radius: 10px;
+  position: relative;
+}
+.product > button {
+  cursor: pointer;
+}
+button.product-add-fav {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  height: 28px;
+  width: 28px;
+  border: 1px solid #3d9ad1;
+  border-radius: 5px;
+  background: url('icons/product-like-blue.svg') 50% 50% / 70% no-repeat;
+}
+button.product-add-fav:hover {
+  background: url('icons/product-like-white.svg') 50% 50% / 70% no-repeat;
+  background-color: #FC5860;
+  border: 1px solid #FC5860;
+}
+button.product-price-btn ,
+button.product-add-cart-btn {
+  position: absolute;
+  bottom: 9px;
+  width: 107px;
+  height: 37px;
+  border: 1px solid #3d9ad1;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0);
+  color: #3d9ad1;
+}
+button.product-price-btn {
+  left: 12px;
+}
+button.product-add-cart-btn {
+  right: 12px;
+}
+button.product-price-btn:hover ,
+button.product-add-cart-btn:hover {
+  background-color: rgba(49, 224, 136, 0.8);
+  color: #fff;
+  border: 1px solid rgba(49, 224, 136, 0.8);
+}
+.product-slide-item > img {
+  height: 190px;
+  width: 246px;
+  border-radius: 8px 8px 0 0;
+}
+/* Слайдер */
+.product-photo-slider.slick-slider{
+  width: 246px;
+  height: 200px;
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+  display: flex;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.product-photo-slider .slick-arrow{
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  font-size: 0;
+  width: 18px;
+  height: 30px;
+  margin: -15px 5px 0 5px;
+  border: none;
+}
+/* Стрелка влево */
+.product-photo-slider .slick-arrow.slick-prev{
+  left: 0;
+  background: url('icons/product-prev-arr.svg') 0 0 / 100% no-repeat;
+}
+/* Стрелка вправо */
+.product-photo-slider .slick-arrow.slick-next{
+  right: 0;
+  background: url('icons/product-next-arr.svg') 0 0 / 100% no-repeat;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
 
 
 /* PROFILE */
