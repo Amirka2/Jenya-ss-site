@@ -756,3 +756,31 @@ button.product-add-cart-btn:hover {
   margin-right: 21px;
   margin-bottom: 20px;
 }
+
+/* CART PAGE */
+#cart-header {
+  width: 100%;
+  height: 50px;
+  margin: 45px 0 47px 0;
+  display: flex;
+  align-items: center;
+}
+#cart-header button {
+  width: 211px;
+  height: 50px;
+  background-color: rgba(49, 224, 136, 0.8);
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  line-height: 36px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+#cart-header button:hover {
+  background-color: #3D9AD1;
+}
+#cart-header h2 {
+  width: 535px;
+  text-align: center;
+}
