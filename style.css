@@ -276,7 +276,10 @@ header .hover:hover {
   font-weight: 600;
   color: #3d9ad1;
 }
-
+#centered-content-fav-and-cart {
+  width: 1040px;
+  margin: 0 auto;
+}
 /* MENU */
 
 .r-arrow {
@@ -753,8 +756,7 @@ button.product-add-cart-btn:hover {
   justify-content: flex-start;
 }
 .products-container .product {
-  margin-right: 21px;
-  margin-bottom: 20px;
+  margin: 5px;
 }
 
 /* CART PAGE */
@@ -783,4 +785,23 @@ button.product-add-cart-btn:hover {
 #cart-header h2 {
   width: 535px;
   text-align: center;
+}
+
+/* FILTERED PAGE WITH PRODUCTS */
+#filtered-page-wrapper {
+  margin-top: 100px;
+}
+#filtered-page-wrapper > .products-container {
+  width: 780px;
+}
+#filtered-page-wrapper > h2 {
+  text-align: center;
+  margin: 0;
+}
+#filter {
+  width: 300px;
+  height: 846px;
+  background-color: #3D9AD1;
+  border-radius: 10px;
+  margin-top: 100px;
 }
