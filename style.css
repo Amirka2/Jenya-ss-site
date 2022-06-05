@@ -144,7 +144,7 @@ header .hover:hover {
 #contacts {
   width: 215px;
   height: 151px;
-  background-color: #53B5EF;
+  background-color: #53b5ef;
   border-radius: 5px;
   position: fixed;
   left: 880px;
@@ -164,14 +164,15 @@ header .hover:hover {
   font-size: 11px;
   width: 170px;
   display: flex;
-  justify-content:stretch;
+  justify-content: stretch;
 }
-.field > p, .field > a {
+.field > p,
+.field > a {
   padding: 3px;
 }
 .field a {
   background-color: #fff;
-  color: #3D9AD1;
+  color: #3d9ad1;
   border-radius: 5px;
 }
 .field a:hover {
@@ -206,7 +207,7 @@ header .hover:hover {
   position: relative;
   left: 500px;
   border-radius: 5px;
-  background-color: #53B5EF;
+  background-color: #53b5ef;
   color: #fff;
 }
 /* #authorization input {
@@ -433,7 +434,7 @@ li:hover.menu-item > ul {
 }
 #banner > h2 {
   font-weight: 700;
-  margin: 10px 0 20px 0;  
+  margin: 10px 0 20px 0;
 }
 
 /* BANNER SLIDER */
@@ -445,36 +446,43 @@ li:hover.menu-item > ul {
   height: 490px;
 }
 /* Слайдер */
-.banner.slick-slider{
+.banner.slick-slider {
   height: 500px;
   width: 640px;
-  border: 5px solid #3D9AD1;
+  border: 5px solid #3d9ad1;
   border-radius: 5px;
 }
 /* Слайдер запущен */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized {
+}
 /* Слайдер с точками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted {
+}
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
 /* Лента слайдов */
-.slick-track{
+.slick-track {
   display: flex;
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide {
+}
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active {
+}
 /* Слайд основной */
-.slick-slide.slick-current{}
+.slick-slide.slick-current {
+}
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center {
+}
 /* Клонированный слайд */
-.slick-slide.slick-cloned{}
+.slick-slide.slick-cloned {
+}
 /* Стрелка */
-.banner .slick-arrow{
+.banner .slick-arrow {
   position: absolute;
   top: 50%;
   z-index: 1;
@@ -485,24 +493,29 @@ li:hover.menu-item > ul {
   border: none;
 }
 /* Стрелка влево */
-.banner .slick-arrow.slick-prev{
+.banner .slick-arrow.slick-prev {
   left: 0;
-  background: url('icons/banner-prev-arr.svg') 0 0 / 100% no-repeat;
+  background: url("icons/banner-prev-arr.svg") 0 0 / 100% no-repeat;
 }
 /* Стрелка вправо */
-.banner .slick-arrow.slick-next{
+.banner .slick-arrow.slick-next {
   right: 0;
-  background: url('icons/banner-next-arr.svg') 0 0 / 100% no-repeat;
+  background: url("icons/banner-next-arr.svg") 0 0 / 100% no-repeat;
 }
 /* Стрелка не активная */
-.slick-arrow.slick-disabled{}
+.slick-arrow.slick-disabled {
+}
 /* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
+.slick-dots {
+}
+.slick-dots li {
+}
 /* Активная точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active {
+}
 /* Элемент точки */
-.slick-dots li button{}
+.slick-dots li button {
+}
 
 /* PRODUCTS ON MAIN */
 
@@ -511,13 +524,14 @@ li:hover.menu-item > ul {
   height: 660px;
   margin-top: 50px;
 }
-#popular-products, #sales-products {
+#popular-products,
+#sales-products {
   width: 100%;
   height: 50%;
   margin-top: 50px;
 }
 
-/* PRODUCT SLIDER */ 
+/* PRODUCT SLIDER */
 
 .product {
   height: 250px;
@@ -538,14 +552,14 @@ button.product-add-fav {
   width: 28px;
   border: 1px solid #3d9ad1;
   border-radius: 5px;
-  background: url('icons/product-like-blue.svg') 50% 50% / 70% no-repeat;
+  background: url("icons/product-like-blue.svg") 50% 50% / 70% no-repeat;
 }
 button.product-add-fav:hover {
-  background: url('icons/product-like-white.svg') 50% 50% / 70% no-repeat;
-  background-color: #FC5860;
-  border: 1px solid #FC5860;
+  background: url("icons/product-like-white.svg") 50% 50% / 70% no-repeat;
+  background-color: #fc5860;
+  border: 1px solid #fc5860;
 }
-button.product-price-btn ,
+button.product-price-btn,
 button.product-add-cart-btn {
   position: absolute;
   bottom: 9px;
@@ -562,7 +576,7 @@ button.product-price-btn {
 button.product-add-cart-btn {
   right: 8px;
 }
-button.product-price-btn:hover ,
+button.product-price-btn:hover,
 button.product-add-cart-btn:hover {
   background-color: rgba(49, 224, 136, 0.8);
   color: #fff;
@@ -574,34 +588,41 @@ button.product-add-cart-btn:hover {
   border-radius: 8px 8px 0 0;
 }
 /* Слайдер */
-.product-photo-slider.slick-slider{
+.product-photo-slider.slick-slider {
   width: 100%;
   height: 75%;
 }
 /* Слайдер запущен */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized {
+}
 /* Слайдер с точками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted {
+}
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
 /* Лента слайдов */
-.slick-track{
+.slick-track {
   display: flex;
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide {
+}
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active {
+}
 /* Слайд основной */
-.slick-slide.slick-current{}
+.slick-slide.slick-current {
+}
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center {
+}
 /* Клонированный слайд */
-.slick-slide.slick-cloned{}
+.slick-slide.slick-cloned {
+}
 /* Стрелка */
-.product-photo-slider .slick-arrow{
+.product-photo-slider .slick-arrow {
   position: absolute;
   top: 40%;
   z-index: 1;
@@ -612,63 +633,72 @@ button.product-add-cart-btn:hover {
   border: none;
 }
 /* Стрелка влево */
-.product-photo-slider .slick-arrow.slick-prev{
+.product-photo-slider .slick-arrow.slick-prev {
   left: 0;
-  background: url('icons/product-prev-arr.svg') 0 0 / 100% no-repeat;
+  background: url("icons/product-prev-arr.svg") 0 0 / 100% no-repeat;
 }
 /* Стрелка вправо */
-.product-photo-slider .slick-arrow.slick-next{
+.product-photo-slider .slick-arrow.slick-next {
   right: 0;
-  background: url('icons/product-next-arr.svg') 0 0 / 100% no-repeat;
+  background: url("icons/product-next-arr.svg") 0 0 / 100% no-repeat;
 }
 /* Стрелка не активная */
-.slick-arrow.slick-disabled{}
+.slick-arrow.slick-disabled {
+}
 /* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
+.slick-dots {
+}
+.slick-dots li {
+}
 /* Активная точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active {
+}
 /* Элемент точки */
-.slick-dots li button{}
-
+.slick-dots li button {
+}
 
 /* PRODUCTS SLIDER */
 
 .products-slider {
-  
 }
 /* Слайдер */
-.products-slider.slick-slider{
+.products-slider.slick-slider {
   width: 1000px;
   height: 250px;
   margin: 0 auto;
   position: relative;
 }
 /* Слайдер запущен */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized {
+}
 /* Слайдер с точками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted {
+}
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
 /* Лента слайдов */
-.slick-track{
+.slick-track {
   display: flex;
 }
 /* Слайд */
-.slick-slide{
+.slick-slide {
 }
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active {
+}
 /* Слайд основной */
-.slick-slide.slick-current{}
+.slick-slide.slick-current {
+}
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center {
+}
 /* Клонированный слайд */
-.slick-slide.slick-cloned{}
+.slick-slide.slick-cloned {
+}
 /* Стрелка */
-.products-slider > .slick-arrow{
+.products-slider > .slick-arrow {
   position: absolute;
   top: 40%;
   z-index: 1;
@@ -679,24 +709,29 @@ button.product-add-cart-btn:hover {
   border: none;
 }
 /* Стрелка влево */
-.products-slider > .slick-arrow.slick-prev{
+.products-slider > .slick-arrow.slick-prev {
   left: -5%;
-  background: url('icons/banner-prev-arr.svg') 0 0 / 100% no-repeat;
+  background: url("icons/banner-prev-arr.svg") 0 0 / 100% no-repeat;
 }
 /* Стрелка вправо */
-.products-slider > .slick-arrow.slick-next{
+.products-slider > .slick-arrow.slick-next {
   right: -5%;
-  background: url('icons/banner-next-arr.svg') 0 0 / 100% no-repeat;
+  background: url("icons/banner-next-arr.svg") 0 0 / 100% no-repeat;
 }
 /* Стрелка не активная */
-.slick-arrow.slick-disabled{}
+.slick-arrow.slick-disabled {
+}
 /* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
+.slick-dots {
+}
+.slick-dots li {
+}
 /* Активная точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active {
+}
 /* Элемент точки */
-.slick-dots li button{}
+.slick-dots li button {
+}
 
 /* PROFILE */
 #profile-content {
@@ -711,18 +746,19 @@ button.product-add-cart-btn:hover {
 }
 #profile-content .header-text h1 {
   margin: auto;
-  color: #3D9AD1;
+  color: #3d9ad1;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
 }
-#personal-info , #orders {
+#personal-info,
+#orders {
   width: 45%;
   height: 496px;
   height: 496px;
-  border: 1px solid #3D9AD1;
+  border: 1px solid #3d9ad1;
   border-radius: 5px;
-  color: #3D9AD1;
+  color: #3d9ad1;
 }
 #profile-content h2 {
   text-align: center;
@@ -730,7 +766,7 @@ button.product-add-cart-btn:hover {
   margin: 20px 0 20px 0;
 }
 #personal-info .field {
-  color: #3D9AD1;
+  color: #3d9ad1;
   font-size: 24px;
   font-weight: bold;
   padding: 0 23px 0 23px;
@@ -780,7 +816,7 @@ button.product-add-cart-btn:hover {
   margin-left: 5px;
 }
 #cart-header button:hover {
-  background-color: #3D9AD1;
+  background-color: #3d9ad1;
 }
 #cart-header h2 {
   width: 535px;
@@ -801,7 +837,169 @@ button.product-add-cart-btn:hover {
 #filter {
   width: 300px;
   height: 846px;
-  background-color: #3D9AD1;
+  background-color: #3d9ad1;
   border-radius: 10px;
   margin-top: 100px;
+}
+
+/* PRODUCT PAGE */
+
+#product-page-slider {
+  height: 530px;
+  width: 550px;
+  background: #3d9ad1;
+  margin-top: 70px;
+  border: 2px solid #3d9ad1;
+  border-radius: 10px;
+  position: relative;
+}
+#product-page-slider > h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  height: 44px;
+}
+.product-page-slider img {
+  width: 546px;
+  height: 482px;
+  border-radius: 10px;
+}
+button.product-add-fav.product-page {
+  top: 51.6px;
+  right: 7.33px;
+  width: 37px;
+  height: 37px;
+}
+/* Слайдер */
+.product-page-slider.slick-slider {
+  width: 550px;
+  height: 486px;
+  border-radius: 10px;
+  position: relative;
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.product-page-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+  margin: -30px 10px 0 10px;
+  border: none;
+}
+/* Стрелка влево */
+.product-page-slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("icons/banner-prev-arr.svg") 0 0 / 100% no-repeat;
+}
+/* Стрелка вправо */
+.product-page-slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("icons/banner-next-arr.svg") 0 0 / 100% no-repeat;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
+
+.features {
+  margin-top: 70px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.feature {
+  width: 235px;
+  background: #3d9ad1;
+  color: #fff;
+  border: 2px solid #3d9ad1;
+  border-radius: 10px;
+}
+.feature > h3 {
+  text-align: center;
+  padding-top: 8px;
+  height: 41px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.feature > ul {
+  background: #fff;
+  border-radius: 10px;
+  color: #3d9ad1;
+  padding: 3px 8px;
+}
+.feature > ul > li {
+  list-style-position: inside;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.features > button {
+  cursor: pointer;
+}
+#price {
+  width: 235px;
+  height: 51px;
+  color: #fff;
+  background: #3d9ad1;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+  border: none;
+  border-radius: 10px;
+}
+#to-cart-btn {
+  width: 235px;
+  height: 115px;
+  border: 2px solid #3d9ad1;
+  border-radius: 10px;
+  background: #fff;
+  color: #3d9ad1;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
 }
