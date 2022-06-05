@@ -25,3 +25,8 @@ $(document).ready(function(){
     autoplaySpeed: 5000,
   });
 });
+
+$(document).ready(function(){
+  $('.product-page-slider').slick({
+  });
+}); 
