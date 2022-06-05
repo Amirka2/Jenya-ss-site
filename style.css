@@ -271,6 +271,7 @@ header .hover:hover {
 /* CONTENT */
 
 #content {
+  position: relative;
   width: 1100px;
   margin: 70px auto;
   display: flex;
@@ -373,8 +374,8 @@ header .hover:hover {
   width: 700px;
   height: 600px;
   position: absolute;
-  left: 570px;
-  top: 120px;
+  left: 400px;
+  top: 50px;
   border-radius: 0 10px 10px 0;
   padding: 5px;
   z-index: 2;
