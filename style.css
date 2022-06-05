@@ -12,6 +12,14 @@ a {
   text-decoration: none;
   color: #fff;
 }
+input:active, 
+input:hover, 
+input:focus {
+  outline: 0;
+  outline-offset: 0;
+  border: none;
+  box-shadow: none;
+}
 .visible {
   display: flex !important;
 }
@@ -21,7 +29,7 @@ a {
 
 /* HEADER */
 header {
-  width: 1440px;
+  width: 100%;
   height: 70px;
   left: 0px;
   top: 0px;
@@ -844,6 +852,11 @@ button.product-add-cart-btn:hover {
 
 /* PRODUCT PAGE */
 
+.wrapper {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
 #product-page-slider {
   height: 530px;
   width: 550px;
